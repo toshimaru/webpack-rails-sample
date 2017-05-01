@@ -1,24 +1,12 @@
-# README
+# webpack-rails sample application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- Rails 5.1
+- :gem: webpack-rails
+- rails new with `--skip-sprockets`
 
-Things you may want to cover:
 
-* Ruby version
+## Functionality
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- run servers with foreman in development
+- Use `javascript_include_tag`
+- webpack + webpack-dev-server
